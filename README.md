@@ -68,7 +68,10 @@ We'll be using the following Scikit-Learn classifaction models to explore the PO
 * RandomForest Classifier - RandomForestClassifier()
 
 ### The Conclusion
-Unfortunately we are unable to predict whether or not a patient has heart disease, given relevant clinical parameters of patients. The projects wesults were as follows:
+Unfortunately we are unable to predict whether or not a patient has heart disease, given relevant clinical parameters of patients. The project results were as follows:
 
-* A maximum cross-validated accuracy score was XX.XX%, which is below the acceptable target of 95%.
-* Data-related issues such as class-imbalance and dataset size need to be addressed to improve the results.
+* Logistic Regression Classifer: 0.8852459016393442
+* K-Nearest Neighbors Classifer: 0.6885245901639344
+* RandomForest Classifier: 0.8688524590163934
+
+A maximum cross-validated accuracy score of **88.52%** was achieved using the **Logistic Regression Classifer**, which is below the acceptable target of 95%. Data-related issues such as class-imbalance and the overall dataset size may need to be addressed to improve these results. Additionally, some alternative model libraries (e.g. CatBoost or XGBoost) could feature some classifiers that may yield better results.
